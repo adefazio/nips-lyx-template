@@ -54,8 +54,8 @@
 \use_package stackrel 1
 \use_package stmaryrd 1
 \use_package undertilde 1
-\cite_engine basic
-\cite_engine_type default
+\cite_engine natbib
+\cite_engine_type authoryear
 \biblio_style plain
 \use_bibtopic false
 \use_indices false
@@ -608,7 +608,6 @@ citet
 \end_layout
 
 \begin_layout Verbatim
-
    
 \backslash
 citet{hasselmo} investigated
@@ -645,7 +644,6 @@ nips_2016
 \end_layout
 
 \begin_layout Verbatim
-
    
 \backslash
 PassOptionsToPackage{options}{natbib}
@@ -669,7 +667,6 @@ nonatbib
 \end_layout
 
 \begin_layout Verbatim
-
    
 \backslash
 usepackage[nonatbib]{nips_2016}
@@ -1269,7 +1266,6 @@ mathbb{C}
 \end_layout
 
 \begin_layout Verbatim
-
     
 \backslash
 newcommand{
@@ -1282,7 +1278,6 @@ RR}{I
 \end_layout
 
 \begin_layout Verbatim
-
     
 \backslash
 newcommand{
@@ -1295,7 +1290,6 @@ Nat}{I
 \end_layout
 
 \begin_layout Verbatim
-
     
 \backslash
 newcommand{
@@ -1357,14 +1351,12 @@ graphicx
 \end_layout
 
 \begin_layout Verbatim
-
    
 \backslash
 usepackage[pdftex]{graphicx} ...
 \end_layout
 
 \begin_layout Verbatim
-
    
 \backslash
 includegraphics[width=0.8
